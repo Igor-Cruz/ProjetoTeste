@@ -35,6 +35,7 @@ body, html{
     padding: 0;
     display: inline; /* um ao lado do outro */
     border-right: 1px solid #bbb;
+    font-family: 'Architects Daughter', cursive;
 }
 
 .menu ul li:last-child{
@@ -54,6 +55,3 @@ body, html{
     background-color: black;
     color:yellow ;
 }
-
-
-
