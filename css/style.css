@@ -10,6 +10,7 @@
     --cor-letra:rgb(54, 54, 54);
     --cor-hover:rgb(49, 49, 49);
     --cor-hoverL:rgb(247, 215, 34);
+    --cor-active:rgb(145, 144, 144);
 }
 
 .container{
@@ -30,7 +31,9 @@
 .header{
     display: flex;
     background: rgb(247, 212, 18);  
-    width: 100vw;    
+    width: 100vw;  
+    /* position: fixed;
+    top: 0;   */
 }
 
 .menu ul li{
@@ -56,6 +59,16 @@
 
 .menu ul li a:hover{
     background-color: var(--cor-hover);
-    color:var(--cor-hoverL) ;
+    color:var(--cor-hoverL);
+    font-weight: bold;
 }
+
+.menu ul li a:active{
+    color: var(--cor-active);
+}
+
+/* .menu ul li:last-child a{
+    color:var(--cor-active);
+    
+}  */
 
