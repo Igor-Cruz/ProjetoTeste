@@ -3,11 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* 
-body, html{
-    width: 100%;
-    height: 100%;
-} */
+
+:root{
+    --cor-menu:rgb(247, 212, 18);
+    --cor-logo:rgb(197, 197, 197);
+    --cor-letra:rgb(54, 54, 54);
+    --cor-hover:rgb(49, 49, 49);
+    --cor-hoverL:rgb(247, 215, 34);
+}
 
 .container{
     width: 100vw;
@@ -19,14 +22,14 @@ body, html{
 
 .logo{
     width: 50px;
-    border: 1px solid white;
+    border: 1px solid var(--cor-logo);
     border-radius: 50%;
-    box-shadow: 0px 0px 10px rgb(197, 197, 197);
+    box-shadow: 0px 0px 10px var(--cor-logo);
 }
 
 .header{
     display: flex;
-    background: yellow;  
+    background: rgb(247, 212, 18);  
     width: 100vw;    
 }
 
@@ -34,7 +37,7 @@ body, html{
     list-style: none;
     padding: 0;
     display: inline; /* um ao lado do outro */
-    border-right: 1px solid #bbb;
+    border-right: 1px solid var(--cor-logo);
     font-family: 'Architects Daughter', cursive;
 }
 
@@ -48,10 +51,11 @@ body, html{
     display: inline-block;
     padding: 20px;
     transition: background .4s;
-    color: black;
+    color: var(--cor-letra);
 }
 
 .menu ul li a:hover{
-    background-color: black;
-    color:yellow ;
+    background-color: var(--cor-hover);
+    color:var(--cor-hoverL) ;
 }
+
