@@ -31,35 +31,55 @@
     </header>
     <div class="container">
         <form action="" method="POST">
-            <label for="">E-mail: </label>
-            <input type="email" name="e-mail" id="" placeholder="What is your e-mail ?">
+            <label for="email">E-mail: </label>
+            <input type="email" name="e-mail" id="email" placeholder="What is your e-mail ?">
 
-            <label for="">Password: </label>
-            <input type="password" name="password" id="" placeholder="Enter your password">
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password" placeholder="Enter your password">
 
             <button>Submit</button>
         </form>
 
         <br>
         <form action="" method="POST">
-            <label for="">Name: </label>
-            <input type="text" name="name" placeholder="What is your name ? "><label for="">Name</label>
+            <label for="namec">Name: </label>
+            <input type="text" name="name" placeholder="What is your name ? " id="namec"><label for="">Name</label>
 
-            <label for="">E-email: </label>
-            <input type="email" name="e-mail" id="" placeholder="What is you e-mail ?"> 
+            <label for="emailc">E-email: </label>
+            <input type="email" name="e-mail" id="emailc" placeholder="What is you e-mail ?"> 
 
-            <label for="">Objective: </label>
-            <input type="text" name="objective" placeholder="What is your goal?"> 
+            <label for="objective">Objective: </label>
+            <input type="text" name="objective" placeholder="What is your goal?" id="objective"> 
 
-            <label for="">Password: </label>
-            <input type="password" name="password" placeholder="register your password">
+            <label for="photo">Profile photo</label>            
+            <input type="file" name="profilephoto" id="photo">
+<!-- 
+            <label for="">Profile photo</label>
+            <input type="image" src="" alt=""> -->
 
-            <label for="">Please confirm: </label> 
-            <input type="password" name="password" id="" placeholder="Confirm your password"> 
+            <label for="password1">Password: </label>
+            <input type="password" name="password" placeholder="register your password" id="password1">
 
-            <label for="">Data de Nascimento: </label>
-            <input type="date" name="datadenascimento" id=""> 
+            <label for="password2">Please confirm: </label> 
+            <input type="password" name="password" id="password2" placeholder="Confirm your password"> 
 
+            <label for="nascimento">Data de Nascimento: </label>
+            <input type="date" name="datadenascimento" id="nascimento"> 
+
+            <label for="phone">Your telephone</label>
+            <input type="tel" name="Phone" id="phone">
+
+            <label for="">Sexo</label>
+            <br>
+            <input type="radio"id="masculino" name="sexo" value="Masculino"> <label for="masculino">Masculino</label> <br>
+
+            <input type="radio"id="feminino" name="sexo" value="Feminino"> <label for="feminino">Feminino</label> <br>
+
+            <input type="radio"id="pni" name="sexo" value="Prefiro não informar"> <label for="pni">Prefiro não informar</label> 
+            <br>
+
+            <input type="checkbox" name="confirmacaodedados" id="confirm"> <label for="confirm">I confirm the veracity of my data and I am in compliance with the rules of the academy</label>
+            <br>
             <button>Submit</button>
 
         </form>
