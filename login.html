@@ -30,20 +30,36 @@
 
     </header>
     <div class="container">
-        <form action="">
-            <input type="email" name="" id="" placeholder="What is your e-mail ?"><label for="">E-mail</label>
-            <input type="password" name="" id="" placeholder="Enter your password"><label for="">Password</label>
+        <form action="" method="POST">
+            <label for="">E-mail: </label>
+            <input type="email" name="e-mail" id="" placeholder="What is your e-mail ?">
+
+            <label for="">Password: </label>
+            <input type="password" name="password" id="" placeholder="Enter your password">
+
             <button>Submit</button>
         </form>
 
         <br>
-        <form action="">
-            <input type="text" placeholder="What is your name ? "><label for="">Name</label>
-            <input type="email" name="" id="" placeholder="What is you e-mail ?"> <label for="">E-email</label>
-            <input type="text" placeholder="What is your goal?"> <label for="">Objective</label>
-            <input type="password" placeholder="register your password"> <label for="">Password</label>
-            <input type="password" name="" id="" placeholder="Confirm your password"> <label for="">Password</label>
-            <input type="date" name="" id=""> <label for="">Data de Nascimento</label>
+        <form action="" method="POST">
+            <label for="">Name: </label>
+            <input type="text" name="name" placeholder="What is your name ? "><label for="">Name</label>
+
+            <label for="">E-email: </label>
+            <input type="email" name="e-mail" id="" placeholder="What is you e-mail ?"> 
+
+            <label for="">Objective: </label>
+            <input type="text" name="objective" placeholder="What is your goal?"> 
+
+            <label for="">Password: </label>
+            <input type="password" name="password" placeholder="register your password">
+
+            <label for="">Please confirm: </label> 
+            <input type="password" name="password" id="" placeholder="Confirm your password"> 
+
+            <label for="">Data de Nascimento: </label>
+            <input type="date" name="datadenascimento" id=""> 
+
             <button>Submit</button>
 
         </form>
