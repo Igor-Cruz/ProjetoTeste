@@ -22,6 +22,17 @@
     
 }
 
+.containerLogin{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../image/old.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    
+
+}
+
 
 
 
@@ -75,4 +86,26 @@
     color:var(--cor-active);
     
 }  */
+
+
+.box {
+    width: 50vw;
+    height: 100vh;
+    border: 1px solid green;
+
+}
+
+.divLogin{
+    
+    
+    
+}
+.divRegister{
+    
+   
+    
+}
+
+
+
 
