@@ -92,6 +92,7 @@
     width: 50vw;
     height: 100vh;
     border: 1px solid green;
+    flex-wrap: wrap;
 
 }
 
