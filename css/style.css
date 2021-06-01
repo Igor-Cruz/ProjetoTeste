@@ -19,7 +19,20 @@
     background-image: url('../image/old.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
     
+}
+.containerHome{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../image/old.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+
 }
 
 .containerLogin{
@@ -32,9 +45,6 @@
     
 
 }
-
-
-
 
 .logo{
     width: 50px;
@@ -50,6 +60,7 @@
     /* position: fixed;
     top: 0;   */
     justify-content: center;
+    flex-wrap: wrap;
     
 }
 
@@ -101,6 +112,13 @@
     flex-wrap: wrap;
 
 }
+
+.boxHome{
+    width: 80vw;
+    height: 50vh;
+    border: 1px solid green;
+}
+
 
 .divLogin{
     
