@@ -8,6 +8,7 @@
     --cor-menu:rgb(247, 212, 18);
     --cor-logo:rgb(197, 197, 197);
     --cor-letra:rgb(54, 54, 54);
+    --cor-lhome:rgb(207, 207, 207);
     --cor-hover:rgb(49, 49, 49);
     --cor-hoverL:rgb(247, 215, 34);
     --cor-active:rgb(145, 144, 144);
@@ -41,8 +42,17 @@
     background-image: url('../image/old.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    display: flex;
-    
+    display: flex;   
+
+}
+
+.containerPlains{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../image/old.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex; 
 
 }
 
@@ -117,6 +127,26 @@
     width: 80vw;
     height: 50vh;
     border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--cor-lhome);
+}
+
+.boxMonthly{
+    width: 30vw;
+    height: 50vh;
+    border: 1px solid green;
+
+}
+
+.boxYearly{
+    width: 30vw;
+    height: 50vh;
+    border: 1px solid green;
+
+
 }
 
 
