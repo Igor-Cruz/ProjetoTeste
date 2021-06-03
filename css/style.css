@@ -60,6 +60,18 @@
 
 }
 
+.containerTraining{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../image/old.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+
+}
+
 .logo{
     width: 50px;
     border: 1px solid var(--cor-logo);
@@ -122,6 +134,34 @@
     justify-content: center;
     color: var(--cor-lhome);
 }
+
+.boxDry{
+    width: 20vw;
+    height: 50vh;
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    color: var(--cor-lhome);
+}
+
+.boxHypertrophy{
+    width: 20vw;
+    height: 50vh;
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    color: var(--cor-lhome);
+}
+
+.boxKeep{
+    width: 20vw;
+    height: 50vh;
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    color: var(--cor-lhome);
+}
+
 
 .boxMonthly{
     width: 30vw;
