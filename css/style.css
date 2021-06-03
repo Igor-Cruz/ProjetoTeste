@@ -42,7 +42,9 @@
     background-image: url('../image/old.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    display: flex;   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
 
 }
 
@@ -110,21 +112,6 @@
     color: var(--cor-active);
 }
 
-/* .menu ul li:last-child a{
-    color:var(--cor-active);
-    justify-content:end;
-    
-}  */
-
-
-.box {
-    width: 50vw;
-    height: 100vh;
-    border: 1px solid green;
-    flex-wrap: wrap;
-
-}
-
 .boxHome{
     width: 80vw;
     height: 50vh;
@@ -140,6 +127,9 @@
     width: 30vw;
     height: 50vh;
     border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    color: var(--cor-lhome);
 
 }
 
@@ -147,20 +137,31 @@
     width: 30vw;
     height: 50vh;
     border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    color: var(--cor-lhome);
 
 
 }
-
 
 .divLogin{
-    
-    
-    
+    width: 30vw;
+    height: 40vh;
+    border: 1px solid green;
+    flex-wrap: wrap; 
+    align-items: center; 
+    justify-content: center;
+    display: flex;
 }
+
 .divRegister{
-    
-   
-    
+    width: 30vw;
+    height: 60vh;
+    border: 1px solid green;
+    flex-wrap: wrap;  
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 
