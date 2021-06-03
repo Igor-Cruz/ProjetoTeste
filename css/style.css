@@ -12,6 +12,8 @@
     --cor-hover:rgb(49, 49, 49);
     --cor-hoverL:rgb(247, 215, 34);
     --cor-active:rgb(145, 144, 144);
+    --cor-plains:rgb(109, 108, 101);
+    --cor-login:rgb(228, 195, 7);
 }
 
 .container{
@@ -39,36 +41,46 @@
 .containerLogin{
     width: 100vw;
     height: 100vh;
-    background-image: url('../image/old.jpg');
+    /* background-image: url('../image/old.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     display: flex;
     justify-content: space-around;
-    align-items: center;   
+    align-items: center; 
+    background-color: var(--cor-login);  
+
+    /* background: rgb(1,1,1);
+    background: linear-gradient(122deg, rgba(1,1,1,1) 28%, rgba(248,254,15,1) 64%); */
 
 }
 
 .containerPlains{
     width: 100vw;
     height: 100vh;
-    background-image: url('../image/old.jpg');
+    /* background-image: url('../image/old.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     display: flex; 
     justify-content: space-around;
     align-items: center;
+
+   background-color: var(--cor-plains);
 
 }
 
 .containerTraining{
     width: 100vw;
     height: 100vh;
-    background-image: url('../image/old.jpg');
+    /* background-image: url('../image/old.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     display: flex; 
     justify-content: space-around;
     align-items: center;
+
+    background: rgb(37,37,37);
+    background: linear-gradient(262deg, rgba(37,37,37,0.9108018207282913) 13%, rgba(248,254,15,1) 44%);
+    /* Colocar igual ao do instagram que vc fez */
 
 }
 
@@ -125,7 +137,7 @@
 }
 
 .boxHome{
-    width: 80vw;
+    width: 50vw;
     height: 50vh;
     border: 1px solid green;
     display: flex;
