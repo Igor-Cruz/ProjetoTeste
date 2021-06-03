@@ -8,7 +8,7 @@
     --cor-menu:rgb(247, 212, 18);
     --cor-logo:rgb(197, 197, 197);
     --cor-letra:rgb(54, 54, 54);
-    --cor-lhome:rgb(207, 207, 207);
+    --cor-lhome:rgb(255, 254, 254);
     --cor-hover:rgb(49, 49, 49);
     --cor-hoverL:rgb(247, 215, 34);
     --cor-active:rgb(145, 144, 144);
@@ -53,6 +53,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     display: flex; 
+    justify-content: space-around;
+    align-items: center;
 
 }
 
